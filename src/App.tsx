@@ -1,10 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import UseStateDemo from "./hooks/UseStateDemo";
+import UseRefDemo from "./hooks/UseRefDemo";
+import {Counter} from "./hooks/useCounter";
 
 function App() {
   return (
-    <div className="App">
+      <>
+        {/*<UseStateDemo />*/}
+        <Counter />
+      </>
+    /*<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +26,7 @@ function App() {
           Learn React
         </a>
       </header>
-    </div>
+    </div>*/
   );
 }
 
